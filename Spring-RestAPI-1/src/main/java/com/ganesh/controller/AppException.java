@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class AppException {
 	
 	
-//	@ExceptionHandler(value = StudentNotFoundException.class)
-//	public String handalStudentNotFoundException(Exception e) {
-//		
-//		return e.getMessage();
-//	}
+	@ExceptionHandler(value = StudentNotFoundException.class)
+	public String handalStudentNotFoundException(Exception e) {
+		
+		return e.getMessage();
+	}
 
 }
